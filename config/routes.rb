@@ -2,6 +2,15 @@ Ribbit::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
+  #static pages
+  root to:"static_pages#index"
+
+  match '/about', to:"static_pages#about"
+
+  match '/help', to:"static_pages#help"
+
+  match '/contact', to:"static_pages#contact"
+
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
