@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f8e1945-d004-46f8-87dd-25bef3119a24" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/divider.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.css.less" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.css.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/buddies.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/buddies.html.erb" />
     </list>
     <ignored path="ribbit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,20 +31,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="131" selection-start="2695" selection-end="2695" vertical-scroll-proportion="0.7266082">
+            <state line="114" column="43" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buddies.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="buddies.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/buddies.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="34" selection-start="3161" selection-end="3161" vertical-scroll-proportion="-13.076923">
-              <folding />
+            <state line="21" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.34263566">
+              <folding>
+                <marker date="1357990763000" expanded="true" signature="288:485" placeholder="..." />
+                <marker date="1357990763000" expanded="true" signature="329:336" placeholder="..." />
+                <marker date="1357990763000" expanded="true" signature="342:463" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,13 +88,13 @@
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/buddies.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css.less" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/buddies.html.erb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="983" />
+    <option name="x" value="642" />
     <option name="y" value="58" />
     <option name="width" value="1405" />
     <option name="height" value="808" />
@@ -589,7 +592,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="983" y="58" width="1405" height="808" extended-state="0" />
+    <frame x="642" y="58" width="1405" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -757,17 +760,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/buddies.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="34" selection-start="3161" selection-end="3161" vertical-scroll-proportion="-13.076923">
+        <state line="114" column="43" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.less">
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/buddies.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="131" selection-start="2695" selection-end="2695" vertical-scroll-proportion="0.7266082">
-          <folding />
+        <state line="21" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.34263566">
+          <folding>
+            <marker date="1357990763000" expanded="true" signature="288:485" placeholder="..." />
+            <marker date="1357990763000" expanded="true" signature="329:336" placeholder="..." />
+            <marker date="1357990763000" expanded="true" signature="342:463" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
