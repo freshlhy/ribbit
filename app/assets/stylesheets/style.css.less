@@ -107,7 +107,7 @@ header {
       float: left;
     }
     div.panel {
-      border: 1px solid @border-color;
+
       background: white;
       margin: 0;
       margin-bottom: 29px;
@@ -119,10 +119,7 @@ header {
         float: left;
         div.ribbitWrapper {
           padding: 15px 0;
-          border-bottom: 1px solid @border-color;
-          &:last-child {
-            border: none;
-          }
+          background: image-url('divider.png') no-repeat center bottom;
           span {
             &.name {
               font-size: 18px;
@@ -135,7 +132,7 @@ header {
           }
 
           img.avatar {
-            margin: 0 19px 0 20px;
+            margin: 4px 19px 0 20px;
             float: left;
           }
 
@@ -158,9 +155,8 @@ header {
 
       }
 
-
-
       &.right {
+        border: 1px solid @border-color;
         width: 303px;
         height: 313px;
         float: right;
