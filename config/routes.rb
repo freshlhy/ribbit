@@ -3,9 +3,9 @@ Ribbit::Application.routes.draw do
   # first created -> highest priority.
 
   #static pages
-  root to:"static_pages#index"
+  root to:"static_pages#home"
 
-  match '/about', to:"static_pages#about"
+  match '/buddies', to:"static_pages#buddies"
 
   match '/help', to:"static_pages#help"
 

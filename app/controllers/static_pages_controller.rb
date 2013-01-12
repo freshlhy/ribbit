@@ -5,7 +5,7 @@ class StaticPagesController < ApplicationController
 
   end
 
-  def help
+  def buddies
   end
 
   def about

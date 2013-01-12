@@ -1,15 +1,29 @@
 <header>
-    <div class="wrapper">
-        <img src="gfx/logo.png">
-        <span>Twitter Clone</span></p>
-    </div>
+  <div class="wrapper">
+    <%= image_tag('logo.png') %>
+    <span>Twitter Clone</span>
+    <form>
+      <input type="text">
+      <input type="password">
+    </form>
+  </div>
 </header>
 <div id="content">
-    <div class="wrapper">
+  <div class="wrapper">
+    <%= image_tag('frog.jpg') %>
+    <div class="panel right">
+      <h1>New to Ribbit?</h1>
+      <form>
+        <input name="email" type="text">
+        <input name="password" type="text">
+        <input name="password2" type="password">
+        <input type="submit" value="Create Account">
+      </form>
     </div>
+  </div>
 </div>
 <footer>
-    <div class="wrapper">
-        Ribbit - A Twitter Clone Tutorial<img src="gfx/logo-nettuts.png">
-    </div>
+  <div class="wrapper">
+    Ribbit - A Twitter Clone Tutorial<%= image_tag('logo-nettuts.png') %>
+  </div>
 </footer>
